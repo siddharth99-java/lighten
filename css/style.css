@@ -1657,7 +1657,25 @@ float: right;
 }
 
 .buy:hover {
-	color: #fff;
+	background: #000;
+	color: #ffc221;
+	transform: scale(1.05);
+}
+
+.btn {
+	background: #ffc221;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background: #000;
+	color: #ffc221;
+	transform: scale(1.05);
 }
 
 .head_top {background: #ffc221;
@@ -2218,6 +2236,7 @@ text-align: center;
 
 .send:hover {
      background: #ffc221;
+	 transform: scale(1.05);
 }
 
 
